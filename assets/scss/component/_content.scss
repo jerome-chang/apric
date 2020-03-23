@@ -1,0 +1,176 @@
+.about {
+
+    .title {
+        padding: 1em;
+
+        h2 {
+            font: normal normal bold 28px/1.4em montserrat, sans-serif;
+        }
+    }
+
+    .container {
+        padding: 1em;
+    }
+
+    p {
+        font-size: 1em;
+        line-height: 1.6em;
+        margin-bottom: 1em;
+    }
+
+    ul {
+        margin-bottom: 1em;
+        margin-left: 0;
+        padding-left: 40px;
+    }
+}
+
+.president {
+
+    .title {
+        padding: 1em;
+
+        h2 {
+            font: normal normal bold 28px/1.4em montserrat, sans-serif;
+        }
+    }
+
+    &__content {
+        overflow: hidden;
+
+        .content_img {
+            width: 10em;
+            height: auto;
+            float: left;
+            padding: 1em;
+        }
+
+        .name {
+            height: 12em;
+            line-height: 12em;
+            text-decoration: underline;
+        }
+
+        .text {
+            clear: both;
+            padding: 1em;
+            text-align: justify;
+        }
+    }
+}
+
+.committee {
+    margin-bottom: 4em;
+    .title {
+        padding: 1em;
+
+        h2 {
+            font: normal normal bold 28px/1.4em montserrat, sans-serif;
+        }
+    }
+
+    .member {
+        margin-bottom: 1em;
+
+        .container {
+            display: block;
+            width: 90%;
+            margin: 0 auto;
+            padding: 1em 0;
+            box-shadow: rgba(0, 0, 0, 0.33) 0px 1px 3px 0px;
+            text-align: center;
+        }
+
+        &_img {
+            width: 98%;
+            margin: 0 auto;
+            height: auto;
+            margin-bottom: 1em;
+        }
+    }
+}
+.innovation{
+    &_block{
+        height: 360px;
+        position: relative;
+        background-color: $secondary;
+        background-size: cover;
+    }
+    .block{
+        &_title{
+            width: 100%;
+            font-size: 32px;
+            height: 100%;
+            line-height: 360px;
+            position: absolute;
+            top: 0;
+            text-align: center;
+            margin: 0;
+            color: #FFF;
+            &.huge{
+                font-size: 40px;
+            }
+        }
+        &-1{
+            background-image: url(../img/block-1.png);
+        }
+        &-2{
+            background-image: url(../img/block-2.png);
+        }
+        &-3{
+            background-image: url(../img/block-3.png);
+        }
+        &-4{
+            background-image: url(../img/block-4.png);
+        }
+        &-5{
+            background-image: url(../img/block-5.png);
+        }
+        &-6{
+            background-image: url(../img/block-6.png);
+        }
+        &-7{
+            background-image: url(../img/block-7.png);
+        }
+        &-8{
+            background-image: url(../img/block-8.png);
+        }
+        &-9{
+            background-image: url(../img/block-9.png);
+        }
+        &-10{
+            background-image: url(../img/block-10.png);
+        }
+    }
+    .overlay{
+        &-s{background-color: transparentize($secondary, 0.6); }
+        &-p{background-color: transparentize($primary, 0.6); }
+    }
+}
+
+@media (max-width: 64em) {
+    .committee {
+
+        h2 {
+            br {
+                display: none;
+            }
+        }
+
+    }
+
+    .innovation{
+        &_block{
+            height: 90px;
+        }
+        .block{
+            &_title{
+                font-size: 21px;
+                line-height: 90px;
+                &.huge{
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
