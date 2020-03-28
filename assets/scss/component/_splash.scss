@@ -23,6 +23,9 @@
 }
 video{
     display: block;
+    position: absolute;
+    bottom: 0;
+    right: -50%;
 }
 .video-overlay{
     background-image: url(../img/overlay.png);
@@ -50,9 +53,29 @@ video{
     font-weight: bold;
     color: #FF4A0D;
     padding: 3em 0 0 0;
-    margin: 0;
+    margin: 0 0 2rem;
     font-weight: 500;
     line-height: 1.1em;
+}
+.splash-text{
+    font-size: 1.5rem;
+    color: #FF4A0D;
+    line-height: 1.4em;
+}
+
+.socialbar{
+    position: absolute;
+    top: 9rem;
+    left: 2rem;
+    z-index: 10;
+    li{
+        list-style: none;
+        margin-bottom: 10px;
+        img{
+            width: 21px;
+            height: 21px;
+        }
+    }
 }
 
 @media (max-width: 64em) {
@@ -68,6 +91,10 @@ video{
     }
     .splash-head {
         font-size: 0;
+    }
+
+    .socialbar{
+        display: none;
     }
     
 }

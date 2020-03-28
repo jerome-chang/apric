@@ -13,7 +13,7 @@
         .pure-menu.pure-menu-horizontal.custom-menu-3.custom-can-transform
           ul.pure-menu-list
             li.pure-menu-item
-              a.pure-menu-link(href='#') 首頁
+              a.pure-menu-link(href='index.html') 首頁
             li.pure-menu-item
               a.pure-menu-link(href='#') Eng
   .splash-container
@@ -21,5 +21,19 @@
       video(role='presentation' preload='auto' crossorigin='anonymous' loop muted autoplay src='./assets/img/media/video.mp4')
       .video-overlay
       .splash
-        h1.splash-head 驱动创新<br>携手推进<br>亚太城轨发展
+        h1.splash-head !{title}
+        p.splash-text  !{text}
         
+  ul.socialbar
+    li
+      a(href="#")
+        img(src="./assets/img/fcbk.png", alt="")
+    li
+      a(href="#")
+        img(src="./assets/img/twt.png", alt="")
+    li
+      a(href="#")
+        img(src="./assets/img/ytb.png", alt="")
+    li
+      a(href="#")
+        img(src="./assets/img/igr.png", alt="")
