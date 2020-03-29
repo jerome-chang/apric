@@ -515,7 +515,7 @@ video {
   padding: 1em;
 }
 .about .title h2 {
-  font: normal normal bold 28px/1.4em montserrat, sans-serif;
+  font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 .about .container {
   padding: 1em;
@@ -535,7 +535,7 @@ video {
   padding: 1em;
 }
 .president .title h2 {
-  font: normal normal bold 28px/1.4em montserrat, sans-serif;
+  font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 .president__content {
   overflow: hidden;
@@ -564,7 +564,7 @@ video {
   padding: 1em;
 }
 .committee .title h2 {
-  font: normal normal bold 28px/1.4em montserrat, sans-serif;
+  font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 .committee .member {
   margin-bottom: 1em;
@@ -651,7 +651,7 @@ video {
   padding: 1em;
 }
 .activity .title h2 {
-  font: normal normal bold 28px/1.4em montserrat, sans-serif;
+  font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 .activity .border-btm {
   border-bottom: 1px solid #03024d;
@@ -661,7 +661,7 @@ video {
   padding: 1em;
 }
 .activity__content .subtitle h3 {
-  font: normal normal 500 28px/1.4em montserrat, sans-serif;
+  font: normal normal 500 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
   color: #ff490d;
 }
 .activity__content .event {
@@ -669,7 +669,7 @@ video {
   margin-bottom: 1em;
 }
 .activity__content .event_title {
-  font: normal normal 500 28px/1.4em montserrat, sans-serif;
+  font: normal normal 500 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
   display: block;
 }
 .activity__content .event_title .more {
@@ -692,7 +692,7 @@ video {
   padding: 1em;
 }
 .else_service .title h2 {
-  font: normal normal bold 28px/1.4em montserrat, sans-serif;
+  font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 .else_service .container {
   padding: 1em;
@@ -715,7 +715,7 @@ video {
 }
 .contact .title h2,
 .contact .text h2 {
-  font: normal normal bold 28px/1.4em montserrat, sans-serif;
+  font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 
 .footer {
@@ -778,7 +778,7 @@ video {
   color: #ff490d;
 }
 .joinus .title h2 {
-  font: normal normal bold 28px/1.4em montserrat, sans-serif;
+  font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 .joinus .container {
   padding: 1em;
@@ -824,7 +824,7 @@ video {
   padding: 1em;
 }
 .statement .title h2 {
-  font: normal normal bold 28px/1.4em montserrat, sans-serif;
+  font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 .statement .container {
   padding: 1em;
