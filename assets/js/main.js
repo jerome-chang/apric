@@ -37,6 +37,19 @@ $(function () {
 
 
 
+$(document).ready(function(){
+    $("#finalBtn").click(function(){
+        $(".popup").css('display','block'); 
+        $(".popup h1").css('opacity','1'); 
+    });
+    $(".popup .closebtn").click(function(){
+        $(".popup").hide();
+      });    
+  });
+
+
+
+
 
 (function (window, document) {
     var menu = document.getElementById('menu'),

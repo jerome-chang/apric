@@ -4,7 +4,7 @@
         padding: 1em;
 
         h2 {
-            font: normal normal bold 28px/1.4em montserrat, sans-serif,'Microsoft YaHei', 'Microsoft JhengHei';
+            font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
 
@@ -31,7 +31,7 @@
         padding: 1em;
 
         h2 {
-            font: normal normal bold 28px/1.4em montserrat, sans-serif,'Microsoft YaHei', 'Microsoft JhengHei';
+            font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
 
@@ -66,7 +66,7 @@
         padding: 1em;
 
         h2 {
-            font: normal normal bold 28px/1.4em montserrat, sans-serif,'Microsoft YaHei', 'Microsoft JhengHei';
+            font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
 
@@ -182,7 +182,7 @@
         padding: 1em;
 
         h2 {
-            font: normal normal bold 28px/1.4em montserrat, sans-serif,'Microsoft YaHei', 'Microsoft JhengHei';
+            font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
 
@@ -197,7 +197,7 @@
         .subtitle {
 
             h3 {
-                font: normal normal 500 28px/1.4em montserrat, sans-serif,'Microsoft YaHei', 'Microsoft JhengHei';
+                font: normal normal 500 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
                 color: $secondary;
             }
         }
@@ -207,7 +207,7 @@
             margin-bottom: 1em;
 
             &_title {
-                font: normal normal 500 28px/1.4em montserrat, sans-serif,'Microsoft YaHei', 'Microsoft JhengHei';
+                font: normal normal 500 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
                 display: block;
 
                 .more {
@@ -238,7 +238,7 @@
         padding: 1em;
 
         h2 {
-            font: normal normal bold 28px/1.4em montserrat, sans-serif,'Microsoft YaHei', 'Microsoft JhengHei';
+            font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
 
@@ -260,81 +260,17 @@
 
 .contact {
     padding-top: 4em;
+    padding-bottom: 2em;
 
     .title,
     .text {
         padding: 1em;
 
         h2 {
-            font: normal normal bold 28px/1.4em montserrat, sans-serif,'Microsoft YaHei', 'Microsoft JhengHei';
+            font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
 
-    // form {
-    //     text-align: right;
-    //     padding: 1em;
-
-    //     .inputbox {
-    //         width: 100%;
-    //         text-align: left;
-    //         padding-left: 0.5em;
-    //         height: 3.5rem;
-    //         line-height: 3.5rem;
-    //         background-color: transparent;
-    //         border: 0;
-    //         border-bottom: 1px solid $primary;
-    //         border-radius: 0;
-    //         color: $primary;
-
-    //         &:focus,
-    //         &:hover {
-    //             border-bottom: 3px solid $primary;
-    //         }
-
-    //         &::placeholder {
-    //             color: $primary;
-    //         }
-
-    //         &:invalid {
-    //             border-width: 1px;
-    //             background-color: rgba(255, 64, 64, 0.1);
-    //             border-style: solid;
-    //             border-color: rgba(255, 64, 64, 1);
-    //         }
-    //     }
-
-    //     .textbox {
-    //         resize: none;
-    //         text-align: left;
-    //         height: 8em;
-    //         max-width: 100%;
-    //         max-height: 100%;
-    //         background-color: transparent;
-    //         border: 0;
-    //         border-bottom: 1px solid $primary;
-    //         border-radius: 0;
-    //         color: $primary;
-    //         margin-bottom: 1em;
-
-    //         &:focus,
-    //         &:hover {
-    //             border-bottom: 3px solid $primary;
-    //         }
-
-    //         &::placeholder {
-    //             color: $primary;
-    //         }
-    //     }
-
-    //     .pure-button-primary {
-    //         background-color: $secondary;
-    //         padding: 0.5em 2em;
-
-    //         &:hover {
-    //             background-color: $primary;
-    //         }
-    //     }
-    // }
 }
 
 .footer {
@@ -409,7 +345,7 @@
         }
 
         h2 {
-            font: normal normal bold 28px/1.4em montserrat, sans-serif,'Microsoft YaHei', 'Microsoft JhengHei';
+            font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
 
@@ -473,7 +409,7 @@
         padding: 1em;
 
         h2 {
-            font: normal normal bold 28px/1.4em montserrat, sans-serif,'Microsoft YaHei', 'Microsoft JhengHei';
+            font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
 
@@ -491,83 +427,155 @@
             background-color: #FFF;
             color: $primary;
             margin-bottom: 1em;
-            ol{
+
+            ol {
                 padding-left: 1.5em;
             }
         }
     }
-    // form {
-    //     text-align: right;
-    //     padding: 1em;
 
-    //     .inputbox {
-    //         width: 100%;
-    //         text-align: left;
-    //         padding-left: 0.5em;
-    //         height: 3.5rem;
-    //         line-height: 3.5rem;
-    //         background-color: transparent;
-    //         border: 0;
-    //         border-bottom: 1px solid $primary;
-    //         border-radius: 0;
-    //         color: $primary;
+    .elseblank {
+        opacity: 1;
+        position: relative;
+        width: 80%;
+        text-align: left;
+        // padding-left: 0.5em;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        background-color: transparent;
+        border: 0;
+        border-bottom: 1px solid $primary;
+        border-radius: 0;
+        color: $primary;
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0);
+    }
 
-    //         &:focus,
-    //         &:hover {
-    //             border-bottom: 3px solid $primary;
-    //         }
+    .noteblank {
+        opacity: 1;
+        position: relative;
+        width: 100%;
+        text-align: left;
+        // padding-left: 0.5em;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        background-color: transparent;
+        border: 0;
+        border-bottom: 1px solid $primary;
+        border-radius: 0;
+        color: $primary;
+        box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0);
+    }
 
-    //         &::placeholder {
-    //             color: $primary;
-    //         }
+    hr {
+        border: 0;
+        height: 2em;
+        display: block;
+        width: 100%;
+    }
 
-    //         &:invalid {
-    //             border-width: 1px;
-    //             background-color: rgba(255, 64, 64, 0.1);
-    //             border-style: solid;
-    //             border-color: rgba(255, 64, 64, 1);
-    //         }
-    //     }
+    .finalnote {
+        font-size: 0.875rem;
+        color: $secondary;
+        padding-top: 0.25rem;
+    }
 
-    //     .textbox {
-    //         resize: none;
-    //         text-align: left;
-    //         height: 8em;
-    //         max-width: 100%;
-    //         max-height: 100%;
-    //         background-color: transparent;
-    //         border: 0;
-    //         border-bottom: 1px solid $primary;
-    //         border-radius: 0;
-    //         color: $primary;
-    //         margin-bottom: 1em;
-
-    //         &:focus,
-    //         &:hover {
-    //             border-bottom: 3px solid $primary;
-    //         }
-
-    //         &::placeholder {
-    //             color: $primary;
-    //         }
-    //     }
-
-    //     .pure-button-primary {
-    //         background-color: $secondary;
-    //         padding: 0.5em 2em;
-
-    //         &:hover {
-    //             background-color: $primary;
-    //         }
-    //     }
-    // }
 }
 
 
+.popup {
+    background-color: transparentize($color: #000000, $amount: 0.2);
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: fixed;
+    z-index: 20;
 
+    h1 {
+        font-size: 32px;
+        height: 100%;
+        line-height: 100%;
+        text-align: center;
+        color: $secondary;
+        opacity: 0;
 
+        &:after {
+            width: 1em;
+            height: 100%;
+            display: inline-block;
+            content: '';
+            vertical-align: middle;
+        }
+    }
+
+    .closebtn {
+        display: block;
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 2em;
+        right: 2em;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.alliance {
+    padding: 1em;
+    color: $primary;
+    .pure-g{
+        margin-bottom: 2em;
+    }
+
+    .item {
+        &-title {
+            font-size: 1rem;
+            height: 2em;
+            line-height: 2em;
+            padding-left: 3rem;
+            padding-right: 1em;
+
+            background-image: url(./../img/check.png);
+            background-repeat: no-repeat;
+            background-size: 2em 2em;
+        }
+        &-subtitle{
+            font-weight: bold;
+            font-size: 1em;
+        }
+        &-content{
+            padding-left: 2em;
+            border-left: solid 1px $primary;
+            ul{
+                padding-left: 1.5em;
+            }
+            img{
+                max-width: 75%;
+                margin: 1em 0;
+                &.pie{
+                    max-width: 50%;
+                }
+            }
+        }
+    }
+}
 
 @media (max-width: 64em) {
+    .alliance {
+    
+        .item {
+            &-title {
+                margin-bottom: 1em;
+            }
+
+            &-content{
+                padding-left: 0;
+                border-left: 0;
+            }
+        }
+    }
     .committee {
 
         h2 {
@@ -642,6 +650,11 @@
         }
     }
 
+    .statement {
+        .radio-box {
+            margin: 0.5em 0 0;
+        }
+    }
 
 
 }
@@ -666,4 +679,5 @@
         height: 3rem;
         line-height: 3em;
     }
+
 }
