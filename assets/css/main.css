@@ -988,6 +988,13 @@ video {
     padding-left: 0;
     border-left: 0;
   }
+  .alliance .item-content img {
+    max-width: 100%;
+    margin: 1em 0;
+  }
+  .alliance .item-content img.pie {
+    max-width: 100%;
+  }
 
   .committee h2 br {
     display: none;
