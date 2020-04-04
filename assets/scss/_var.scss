@@ -1,4 +1,5 @@
-$primary:#03024d;
+// $primary:#03024d;
+$primary:#020072;
 $secondary: #ff490d;
 $disable: #d6dae5;
 $light: #fff;
@@ -101,7 +102,7 @@ a {
 
   &.inline {
     display: inline-block;
-    // margin-left: 1em;
+    margin-left: 1em;
     margin-bottom: 0;
   }
 
@@ -269,9 +270,7 @@ a {
 }
 
 
-form.pure-form {
-  // text-align: right;
-  // padding: 1em;
+.pure-form {
 
   input.inputbox {
     width: 100%;
@@ -388,11 +387,16 @@ form.pure-form {
 
 
 @media (max-width: 48em) {
-  form.pure-form {
+  .pure-form {
     input.inputbox {
       &.half {
         width: 100%;
       }
     }
   }
+  .pure-radio {
+
+    &.inline {
+      margin-bottom: 8px;
+    }}
 }

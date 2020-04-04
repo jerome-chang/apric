@@ -20,7 +20,7 @@ a {
 }
 
 .decoline {
-  border-bottom: 3px solid #03024d;
+  border-bottom: 3px solid #020072;
   margin: 2em 1em;
 }
 .decoline.tall {
@@ -48,7 +48,7 @@ a {
   background-color: #ff490d;
 }
 .buttonwrap .pure-button.pr {
-  background-color: #03024d;
+  background-color: #020072;
 }
 
 .pure-controls.pdt {
@@ -70,6 +70,7 @@ a {
 .pure-checkbox.inline,
 .pure-radio.inline {
   display: inline-block;
+  margin-left: 1em;
   margin-bottom: 0;
 }
 .pure-checkbox:hover input ~ .checkmark, .pure-checkbox:hover input ~ .opt-mark,
@@ -92,7 +93,7 @@ a {
 }
 .pure-checkbox input:checked ~ .checkmark,
 .pure-radio input:checked ~ .checkmark {
-  background-color: #03024d;
+  background-color: #020072;
 }
 .pure-checkbox input:checked ~ .checkmark:after,
 .pure-radio input:checked ~ .checkmark:after {
@@ -108,7 +109,7 @@ a {
 .pure-checkbox input:checked ~ .opt-mark:after,
 .pure-radio input:checked ~ .opt-mark:after {
   display: block;
-  background-color: #03024d;
+  background-color: #020072;
   left: 2px;
   top: 2px;
   width: 20px;
@@ -124,7 +125,7 @@ a {
   width: 24px;
   border-radius: 24px;
   background-color: #eee;
-  border: 1px solid #03024d;
+  border: 1px solid #020072;
 }
 .pure-checkbox .checkmark:after,
 .pure-radio .checkmark:after {
@@ -141,7 +142,7 @@ a {
   width: 24px;
   border-radius: 24px;
   background-color: #eee;
-  border: 1px solid #03024d;
+  border: 1px solid #020072;
 }
 .pure-checkbox .opt-mark:after,
 .pure-radio .opt-mark:after {
@@ -213,7 +214,7 @@ a {
   bottom: 0;
 }
 
-form.pure-form input.inputbox {
+.pure-form input.inputbox {
   width: 100%;
   text-align: left;
   padding-left: 0.5em;
@@ -221,27 +222,27 @@ form.pure-form input.inputbox {
   line-height: 3.5rem;
   background-color: transparent;
   border: 0;
-  border-bottom: 1px solid #03024d;
+  border-bottom: 1px solid #020072;
   border-radius: 0;
-  color: #03024d;
+  color: #020072;
   box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0);
 }
-form.pure-form input.inputbox:focus, form.pure-form input.inputbox:hover {
-  border-bottom: 3px solid #03024d;
+.pure-form input.inputbox:focus, .pure-form input.inputbox:hover {
+  border-bottom: 3px solid #020072;
 }
-form.pure-form input.inputbox::placeholder {
-  color: #03024d;
+.pure-form input.inputbox::placeholder {
+  color: #020072;
 }
-form.pure-form input.inputbox:invalid {
+.pure-form input.inputbox:invalid {
   border-width: 1px;
   background-color: rgba(255, 64, 64, 0.1);
   border-style: solid;
   border-color: #ff4040;
 }
-form.pure-form input.inputbox.half {
+.pure-form input.inputbox.half {
   width: 98%;
 }
-form.pure-form .textbox {
+.pure-form .textbox {
   resize: none;
   text-align: left;
   height: 8em;
@@ -249,24 +250,24 @@ form.pure-form .textbox {
   max-height: 100%;
   background-color: transparent;
   border: 0;
-  border-bottom: 1px solid #03024d;
+  border-bottom: 1px solid #020072;
   border-radius: 0;
-  color: #03024d;
+  color: #020072;
   margin-bottom: 1em;
   box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0);
 }
-form.pure-form .textbox:focus, form.pure-form .textbox:hover {
-  border-bottom: 3px solid #03024d;
+.pure-form .textbox:focus, .pure-form .textbox:hover {
+  border-bottom: 3px solid #020072;
 }
-form.pure-form .textbox::placeholder {
-  color: #03024d;
+.pure-form .textbox::placeholder {
+  color: #020072;
 }
-form.pure-form .pure-button-primary {
+.pure-form .pure-button-primary {
   background-color: #ff490d;
   padding: 0.5em 2em;
 }
-form.pure-form .pure-button-primary:hover {
-  background-color: #03024d;
+.pure-form .pure-button-primary:hover {
+  background-color: #020072;
 }
 
 .fancybox-caption__body b {
@@ -300,8 +301,12 @@ form.pure-form .pure-button-primary:hover {
   }
 }
 @media (max-width: 48em) {
-  form.pure-form input.inputbox.half {
+  .pure-form input.inputbox.half {
     width: 100%;
+  }
+
+  .pure-radio.inline {
+    margin-bottom: 8px;
   }
 }
 .topbar {
@@ -539,6 +544,7 @@ video {
   padding: 1em;
 }
 .about .title h2 {
+  color: #020072;
   font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 .about .container {
@@ -559,6 +565,7 @@ video {
   padding: 1em;
 }
 .president .title h2 {
+  color: #020072;
   font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 .president__content {
@@ -588,6 +595,7 @@ video {
   padding: 1em;
 }
 .committee .title h2 {
+  color: #020072;
   font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 .committee .member {
@@ -619,14 +627,21 @@ video {
 }
 .innovation .block_title {
   width: 100%;
-  font-size: 32px;
   height: 100%;
-  line-height: 360px;
   position: absolute;
   top: 0;
   text-align: center;
   margin: 0;
+  line-height: 360px;
+}
+.innovation .block_title h1 {
   color: #FFF;
+  font-size: 32px;
+  display: inline-block;
+  height: auto;
+  line-height: 1;
+  width: 90%;
+  vertical-align: middle;
 }
 .innovation .block_title.huge {
   font-size: 40px;
@@ -665,7 +680,7 @@ video {
   background-color: rgba(255, 73, 13, 0.4);
 }
 .innovation .overlay-p {
-  background-color: rgba(3, 2, 77, 0.4);
+  background-color: rgba(2, 0, 114, 0.4);
 }
 
 .activity {
@@ -675,10 +690,11 @@ video {
   padding: 1em;
 }
 .activity .title h2 {
+  color: #020072;
   font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 .activity .border-btm {
-  border-bottom: 1px solid #03024d;
+  border-bottom: 1px solid #020072;
   margin-bottom: 1em;
 }
 .activity__content {
@@ -703,19 +719,20 @@ video {
   padding: 0.5em 2em;
 }
 .activity__content .event_title .more:hover {
-  background-color: #03024d;
+  background-color: #020072;
 }
 .activity__content .event_title span {
   text-align: center;
 }
 
 .else_service {
-  padding-top: 2em;
+  padding: 2em 0;
 }
 .else_service .title {
   padding: 1em;
 }
 .else_service .title h2 {
+  color: #020072;
   font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 .else_service .container {
@@ -726,7 +743,6 @@ video {
   font-size: 2.5rem;
   text-align: justify;
   line-height: 3rem;
-  height: 3rem;
   text-align: center;
 }
 
@@ -740,11 +756,12 @@ video {
 }
 .contact .title h2,
 .contact .text h2 {
+  color: #020072;
   font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 
 .footer {
-  color: #03024d;
+  color: #020072;
   padding: 2em 1em;
 }
 .footer__left, .footer__right {
@@ -766,7 +783,7 @@ video {
   position: fixed;
   right: 1em;
   bottom: 1em;
-  background-color: #03024d;
+  background-color: #020072;
   color: white;
   text-align: center;
   opacity: 0;
@@ -793,7 +810,7 @@ video {
   z-index: 10;
 }
 .joinbutton:hover {
-  background-color: #03024d;
+  background-color: #020072;
 }
 
 .joinus .title {
@@ -803,6 +820,7 @@ video {
   color: #ff490d;
 }
 .joinus .title h2 {
+  color: #020072;
   font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 .joinus .container {
@@ -828,7 +846,7 @@ video {
   padding: 2em 0;
   text-align: center;
   color: #FFF;
-  background-color: #03024d;
+  background-color: #020072;
 }
 .fee .fee-block .container h2 {
   margin-bottom: 1em;
@@ -849,6 +867,7 @@ video {
   padding: 1em;
 }
 .statement .title h2 {
+  color: #020072;
   font: normal normal bold 28px/1.4em montserrat, sans-serif, "Microsoft YaHei", "Microsoft JhengHei";
 }
 .statement .container {
@@ -862,7 +881,7 @@ video {
 .statement .container .text-box {
   padding: 1em;
   background-color: #FFF;
-  color: #03024d;
+  color: #020072;
   margin-bottom: 1em;
 }
 .statement .container .text-box ol {
@@ -877,9 +896,9 @@ video {
   line-height: 1.5rem;
   background-color: transparent;
   border: 0;
-  border-bottom: 1px solid #03024d;
+  border-bottom: 1px solid #020072;
   border-radius: 0;
-  color: #03024d;
+  color: #020072;
   box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .statement .noteblank {
@@ -891,9 +910,9 @@ video {
   line-height: 1.5rem;
   background-color: transparent;
   border: 0;
-  border-bottom: 1px solid #03024d;
+  border-bottom: 1px solid #020072;
   border-radius: 0;
-  color: #03024d;
+  color: #020072;
   box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0);
 }
 .statement hr {
@@ -946,7 +965,7 @@ video {
 
 .alliance {
   padding: 1em;
-  color: #03024d;
+  color: #020072;
 }
 .alliance .pure-g {
   margin-bottom: 2em;
@@ -967,7 +986,7 @@ video {
 }
 .alliance .item-content {
   padding-left: 2em;
-  border-left: solid 1px #03024d;
+  border-left: solid 1px #020072;
 }
 .alliance .item-content ul {
   padding-left: 1.5em;

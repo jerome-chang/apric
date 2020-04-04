@@ -4,6 +4,7 @@
         padding: 1em;
 
         h2 {
+            color: $primary;
             font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
@@ -31,6 +32,7 @@
         padding: 1em;
 
         h2 {
+            color: $primary;
             font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
@@ -66,6 +68,7 @@
         padding: 1em;
 
         h2 {
+            color: $primary;
             font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
@@ -109,14 +112,22 @@
     .block {
         &_title {
             width: 100%;
-            font-size: 32px;
             height: 100%;
-            line-height: 360px;
             position: absolute;
             top: 0;
             text-align: center;
             margin: 0;
-            color: #FFF;
+            line-height:360px;
+            h1{
+                color: #FFF;
+                font-size: 32px;
+                display: inline-block;
+                height: auto;
+                line-height:1;
+                width: 90%;
+                // background: #ccc;
+                vertical-align: middle;
+            }
 
             &.huge {
                 font-size: 40px;
@@ -182,6 +193,7 @@
         padding: 1em;
 
         h2 {
+            color: $primary;
             font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
@@ -232,12 +244,13 @@
 }
 
 .else_service {
-    padding-top: 2em;
+    padding: 2em 0;
 
     .title {
         padding: 1em;
 
         h2 {
+            color: $primary;
             font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
@@ -251,7 +264,7 @@
                 font-size: 2.5rem;
                 text-align: justify;
                 line-height: 3rem;
-                height: 3rem;
+                // height: 3rem;
                 text-align: center;
             }
         }
@@ -267,6 +280,7 @@
         padding: 1em;
 
         h2 {
+            color: $primary;
             font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
@@ -345,6 +359,7 @@
         }
 
         h2 {
+            color: $primary;
             font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
@@ -409,6 +424,7 @@
         padding: 1em;
 
         h2 {
+            color: $primary;
             font: normal normal bold 28px/1.4em montserrat, sans-serif, 'Microsoft YaHei', 'Microsoft JhengHei';
         }
     }
